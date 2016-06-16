@@ -1,0 +1,15 @@
+{
+    "name": "gda/about",
+	"description": "Pacote Laravel para adiministrar o 'Sobre' dentro do GDA Admin",
+    "authors": [
+        {
+            "name": "Diogo Bemfica",
+            "email": "diogo.fragabemfica@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.0"
+	},
+    "require": {}
+}
