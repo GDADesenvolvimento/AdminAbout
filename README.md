@@ -32,3 +32,9 @@ Rode o seguinte comando no artisan:
 ```bash
 php artisan vendor:publish
 ```
+
+Rode as migrações
+
+```bash
+php artisan migration
+```
