@@ -13,7 +13,7 @@ Adicione o seguinte service provider em seu arquivo config/app.php:
 ```php
 'providers' => [
     //...
-    \GdaDesenv\GdaAbout\Providers\GdaAboutServiceProvider::class
+    GdaDesenv\AdminAbout\Providers\GdaAboutServiceProvider::class
 ]
 ```
 
