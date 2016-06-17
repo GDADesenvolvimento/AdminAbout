@@ -6,7 +6,7 @@ Esse pacote é para adicionar a função About(Sobre) na aplicação GDA Admin
 
 ## Instalação
 
-Rode: composer require gda/about
+composer require gdadesenv/adminabout
 
 Adicione o seguinte service provider em seu arquivo config/app.php:
 
