@@ -1,6 +1,6 @@
 <?php
 
-namespace GdaDesenv\GdaAbout\Entities;
+namespace GdaDesenv\AdminAbout\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 

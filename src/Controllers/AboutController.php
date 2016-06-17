@@ -1,9 +1,9 @@
 <?php
 
-namespace GdaDesenv\GdaAbout\Controllers;
+namespace GdaDesenv\AdminAbout\Controllers;
 
 use App\Http\Controllers\Controller;
-use GdaDesenv\GdaAbout\Entities\About;
+use GdaDesenv\AdminAbout\Entities\About;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -17,7 +17,7 @@ class AboutController extends Controller
         }else{
             $about = new About();
         }
-        return view('GdaAbout::about.index',compact('about'));
+        return view('AdminAbout::about.index',compact('about'));
     }
 
     function update(Request $request)

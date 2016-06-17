@@ -1,6 +1,6 @@
 <?php
 
-namespace GdaDesenv\GdaAbout\Providers;
+namespace GdaDesenv\AdminAbout\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -16,7 +16,7 @@ class GdaAboutServiceProvider extends ServiceProvider
         if (! $this->app->routesAreCached()) {
             require __DIR__.'/../routes.php';
         }
-        $this->loadViewsFrom(__DIR__ . "/../../resources/views","GdaAbout");
+        $this->loadViewsFrom(__DIR__ . "/../../resources/views","AdminAbout");
 
         $this->publishes([
             __DIR__."/../../database/migrations" => database_path("migrations")
